@@ -10,8 +10,10 @@
     
     <tbody>
         <% @books.each do |b| %>
-    <span><%= b.title %></span>
-    <span><%= b.body %></span>
+            <tr>
+                <td><%= b.title %></td>
+                <td><%= b.body %></td>
+            </tr>
         <% end %>
     </tbody>
 </table>
