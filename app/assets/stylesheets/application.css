@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+ 
+ .flash{
+color: green;
+}
+
+table{
+  width: 100%;
+}
+
+th{
+  width: 50%;
+
+}
+
+td{
+  width: 50%;
+}
+
+
